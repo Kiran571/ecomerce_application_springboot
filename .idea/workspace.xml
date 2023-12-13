@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8763cea-b07f-4e0d-b48d-301c6dadb426" name="Changes" comment="" />
+    <list default="true" id="a8763cea-b07f-4e0d-b48d-301c6dadb426" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/_services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/_services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/admin/admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/admin/admin.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/admin/admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/admin/admin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-ui/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-ui/src/app/login/login.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.EcomerceApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "tut21",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "A:/Code/JAVA/ecomerce_application_springboot",
@@ -96,6 +111,7 @@
       <workItem from="1702387234438" duration="5694000" />
       <workItem from="1702456068087" duration="1061000" />
       <workItem from="1702479484279" duration="1098000" />
+      <workItem from="1702490281600" duration="123000" />
     </task>
     <servers />
   </component>
