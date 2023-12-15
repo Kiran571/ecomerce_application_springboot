@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
       </list>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+>>>>>>> d90df95dbcae73f3232bed1ba7f08c056b0e8c33
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
