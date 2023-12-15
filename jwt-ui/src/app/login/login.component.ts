@@ -46,7 +46,7 @@ export class LoginComponent implements OnInit {
           this.router.navigate(['/']);
         }
 
-        localStorage.setItem('jwtToken', res.token);
+        // localStorage.setItem('jwtToken', res.token);
       },
       err => {
         console.log(err);

@@ -27,9 +27,8 @@ export class UserAuthService {
     localStorage.clear();
   }
 
-
-  public isLoggeedIn() :boolean{
-    return this.getToken() != null;
-  }
-
+public loggedIn(): boolean {
+  const token = this.getToken();
+  return token ? true : false;
+}
 }

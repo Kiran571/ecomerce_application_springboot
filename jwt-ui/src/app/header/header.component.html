@@ -12,18 +12,18 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/admin"
-        
+              *ngIf="loggedIn() && roleMatch(['Admin'])"
             >Admin Dashboard</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/user"
-           
+            *ngIf="loggedIn() && roleMatch(['user'])"
             >User Dashboard</a>
           </li>
          
         </ul>
-        <button  type="button" class="btn btn-success" routerLink="/login">Login</button>
-        <button  type="button" class="btn btn-danger"  >Logout</button>
+        <button *ngIf="! loggedIn()" type="button" class="btn btn-success" routerLink="/login">Login</button>
+        <button *ngIf="loggedIn()" type="button" class="btn btn-danger" (click)="logout()" >Logout</button>
       </div>
     </div>
   </nav>
