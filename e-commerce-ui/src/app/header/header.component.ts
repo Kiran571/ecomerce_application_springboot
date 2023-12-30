@@ -15,7 +15,8 @@ import {MatInputModule} from '@angular/material/input';
     RouterLink,
     MatToolbarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
@@ -42,6 +43,14 @@ export class HeaderComponent implements OnInit{
 
   public roleMatch(allowedRoles: any): boolean {
     return this.userService.roleMatch(allowedRoles);
+  }
+
+  public isAdmin() {
+    return this.userAuthService.isAdmin();
+  }
+
+  public isUser() {
+    return this.userAuthService.isUser();
   }
 
 }

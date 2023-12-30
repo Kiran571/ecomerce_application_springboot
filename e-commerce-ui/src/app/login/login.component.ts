@@ -4,15 +4,11 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { UserService } from '../_services/user.service';
 import { UserAuthService } from '../_services/user-auth.service';
 import { Router } from '@angular/router';
-import {MAT_FORM_FIELD_DEFAULT_OPTIONS, MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
-
-
-
-
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 @Component({
@@ -24,11 +20,11 @@ import {MatIconModule} from '@angular/material/icon';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatTabsModule],
+    MatTabsModule
+  ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css',
   providers: [
-    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'outline'}}
 
   ]
 })

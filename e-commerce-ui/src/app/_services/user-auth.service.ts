@@ -27,8 +27,20 @@ export class UserAuthService {
     localStorage.clear();
   }
 
-public loggedIn(): boolean {
-  const token = this.getToken();
-  return token ? true : false;
-}
+  public loggedIn(): boolean {
+    const token = this.getToken();
+    return token ? true : false;
+  }
+
+  public isAdmin() {
+    const roles : any[] = this.getRoles() ; // Add type assertion
+    return roles.includes('Admin');
+  }
+  public isUser() {
+    const roles : any[] = this.getRoles() ; // Add type assertion
+    return roles.includes('user');
+  }
+
+
+
 }
