@@ -11,7 +11,7 @@ import { response } from 'express';
 })
 export class UserComponent implements OnInit {
 
-  message!: string;
+  message: string;
 
    constructor(
     private userService: UserService
